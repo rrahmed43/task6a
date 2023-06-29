@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns:300px  300px 100px ;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+}
+.children{
+    background-color: lightpink;
+    text-align: center;
+}
+#one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#two{
+ 
+  height:170px;
+}
